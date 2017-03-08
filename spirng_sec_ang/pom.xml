@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>springsecurity</artifactId>
+	<artifactId>spirng_sec_ang</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springsecurity</name>
+	<name>spirng_sec_ang</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -36,6 +36,7 @@
 			<scope>test</scope>
 		</dependency>
 
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -46,22 +47,9 @@
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 
-		<!--&lt;!&ndash; ... other dependency elements ... &ndash;&gt;-->
-		<!--<dependency>-->
-			<!--<groupId>org.springframework.security</groupId>-->
-			<!--<artifactId>spring-security-web</artifactId>-->
-			<!--<version>4.2.2.RELEASE</version>-->
-		<!--</dependency>-->
-		<!--<dependency>-->
-			<!--<groupId>org.springframework.security</groupId>-->
-			<!--<artifactId>spring-security-config</artifactId>-->
-			<!--<version>4.2.2.RELEASE</version>-->
-		<!--</dependency>-->
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-mongodb</artifactId>
-		</dependency>
+
+
 
 	</dependencies>
 

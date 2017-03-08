@@ -28,4 +28,10 @@ public class TestController {
         return user.toString();
     }
 
+    @RequestMapping("/login")
+    String login(){
+        return "login!";
+    }
+
+
 }
