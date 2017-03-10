@@ -16,4 +16,16 @@ public class LoginController {
         String login(Principal principal){
             return principal.getName();
         }
+
+
+        @RequestMapping("/test_1")
+        String test(Principal principal){
+            return principal.getName()+"test_1";
+        }
+
+    @RequestMapping("/test__2")
+    String test_2(Principal principal){
+        return principal.getName()+"test_2";
+    }
+
 }
