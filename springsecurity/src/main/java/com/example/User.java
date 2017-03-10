@@ -22,7 +22,15 @@ public class User {
     // 个人中心
     private String imageHeaderUrl;
 
+    private String role;
 
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
 
     public static final String FIELD_PHONE_NUMBER = "phoneNumber";
 

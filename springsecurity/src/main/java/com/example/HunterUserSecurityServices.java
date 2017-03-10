@@ -31,7 +31,10 @@ public class HunterUserSecurityServices implements UserDetailsService {
 
         if (hunterUser != null){
             List<GrantedAuthority> authorities = new ArrayList<GrantedAuthority>();
-            authorities.add(new SimpleGrantedAuthority("HUNTER_USER"));
+            authorities.add(new SimpleGrantedAuthority("ROLE_" + hunterUser.getRole()));
+
+            System.out.println("ROLE_" + hunterUser.getRole());
+
             return new org.springframework.security.core.userdetails.User(hunterUser.getPhoneNumber(), hunterUser.getPassword(), authorities);
         }
 
